@@ -2,7 +2,7 @@ import numpy as np
 from time import time
 from matplotlib import pyplot as plt
 
-import orbitalspectrum as orb
+import gasp2d as g2d
 
 analyticexample = True
 
@@ -36,7 +36,15 @@ example = {'name':"2D Gaussian (Isotropic QHO Ground State)",
            'func': np.abs(QHO_Ground_State(X, Y))**2}
 
 ti_cdh = time()
-f = orb.PolarDecomposition(example['func'], x, y, Nr = 256, Ntheta = 512, recon_err_tol = 1.0, recon_power_tol = 1e-15, m_abs_max = None,)
+f = g2d.PolarDecomposition(example['func'], 
+                           x, 
+                           y, 
+                           Nr = 256, 
+                           Ntheta = 512, 
+                           recon_err_tol = 1.0, 
+                           recon_power_tol = 1e-15, 
+                           m_abs_max = None,
+                           )
 tf_cdh = time()
 
 print(f'Decomposition time: {tf_cdh - ti_cdh}')

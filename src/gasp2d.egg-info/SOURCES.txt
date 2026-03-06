@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/gasp2d/__init__.py
+src/gasp2d/polar.py
+src/gasp2d.egg-info/PKG-INFO
+src/gasp2d.egg-info/SOURCES.txt
+src/gasp2d.egg-info/dependency_links.txt
+src/gasp2d.egg-info/requires.txt
+src/gasp2d.egg-info/top_level.txt
+src/gasp2d/benchmarks/benchmark_memory_and_bandwidth.py
+src/gasp2d/benchmarks/benchmark_polar_basic.py
+src/gasp2d/benchmarks/benchmark_polar_full.py
+src/gasp2d/benchmarks/benchmark_polar_scaling.py

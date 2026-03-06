@@ -30,9 +30,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/placeholder/orbital-spectrum"
-Repository = "https://github.com/placeholder/orbital-spectrum"
-Issues = "https://github.com/placeholder/orbital-spectrum/issues"
+Homepage = "https://github.com/QuantumArtificer/gasp2d"
+Repository = "https://github.com/QuantumArtificer/gasp2d"
+Issues = "https://github.com/QuantumArtificer/gasp2d/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
