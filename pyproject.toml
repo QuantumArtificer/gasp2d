@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gasp2d"
+version = "0.1.0"
+description = "Generalized Atomic-orbital Spectral Projection in 2D: A library for spectral decomposition and projection of 2D fields onto a basis of polar angular momentum harmonics."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+authors = [
+  { name = "Alex Santacruz" },
+  { name = "2DQMAT Research @ IF-UNAM" }
+]
+
+keywords = [
+  "circular-harmonics",
+  "polar-coordinates",
+  "generalized-orbitals",
+  "two-dimensions",
+  "angular-momentum"
+]
+
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "matplotlib>=3.6"
+]
+
+[project.urls]
+Homepage = "https://github.com/placeholder/orbital-spectrum"
+Repository = "https://github.com/placeholder/orbital-spectrum"
+Issues = "https://github.com/placeholder/orbital-spectrum/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
